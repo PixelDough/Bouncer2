@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{87eb55b1-1c72-4592-98a4-4f9d60632ad9}</destination>
+			<destination>{a5022bb8-6613-4f6d-acc1-e359800d195d}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{921f27db-d1a3-4199-9d53-bece0e2f048d}</destination>
@@ -209,7 +209,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>250</value>
+			<value>600</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{eb54f85c-6aa4-4f2f-b031-2180f4bbbc23}">
@@ -220,7 +220,7 @@
 			<value>22000</value>
 		</property>
 		<property name="curveShape">
-			<value>0.062727429</value>
+			<value>-0.343736619</value>
 		</property>
 	</object>
 </objects>

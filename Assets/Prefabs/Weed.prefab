@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/grass_push
+  Event: event:/Sound Effects/grass_push
   PlayEvent: 5
   StopEvent: 0
   AllowFadeout: 1

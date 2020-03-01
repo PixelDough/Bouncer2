@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Rewired;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class BallController : MonoBehaviour
@@ -25,18 +26,23 @@ public class BallController : MonoBehaviour
 
     Vector2 groundNormal = Vector2.up;
 
+    // Rewired Info
+    Player player;
+
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         collider = GetComponent<CircleCollider2D>();
         rope = GetComponent<DistanceJoint2D>();
+
+        player = ReInput.players.GetPlayer(0);
     }
 
     private void Update()
     {
-        moveInput = Input.GetAxis("Horizontal");
+        moveInput = player.GetAxis(RewiredConsts.Action.RollHorizontal);
         if (moveInput != 0f) { boostDirection = Mathf.Sign(moveInput); }
-        if (!boostPressed) { boostPressed = Input.GetButtonDown("Jump"); }
+        if (!boostPressed) { boostPressed = player.GetButtonDown(RewiredConsts.Action.Jump); }
 
         // Grappling Hook
         //if (Input.GetMouseButtonDown(0))
@@ -51,7 +57,7 @@ public class BallController : MonoBehaviour
         //    rope.enabled = false;
         //}
 
-        if (Input.GetKeyDown(KeyCode.Escape)) { Application.Quit(); }
+        if (player.GetButtonDown(RewiredConsts.Action.Pause)) { Application.Quit(); }
 
         coyoteTime -= Time.deltaTime;
     }
@@ -66,15 +72,16 @@ public class BallController : MonoBehaviour
 
         ContactPoint2D[] points = new ContactPoint2D[10];
         rb2d.GetContacts(points);
-        foreach(ContactPoint2D p in points)
+        foreach (ContactPoint2D p in points)
         {
-            if (p.normal.y > 0)
+            if (p.normal.y * rb2d.gravityScale > 0)
             {
                 isGrounded = true;
                 coyoteTime = coyoteTimeMax;
                 groundNormal = p.normal;
             }
         }
+        
 
         if (moveInput != 0)
         {
@@ -87,9 +94,11 @@ public class BallController : MonoBehaviour
         if (boostPressed && coyoteTime > 0)
         {
 
-            Vector2 jumpVector = Vector2.up;
+            Vector2 jumpVector = Vector2.up * rb2d.gravityScale;
 
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 10f);
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 10f * rb2d.gravityScale);
+
+            coyoteTime = 0;
             
             //if (moveInput != 0)
             //    rb2d.AddForce((boostDirection * Vector2.right) * 50f, ForceMode2D.Impulse);
