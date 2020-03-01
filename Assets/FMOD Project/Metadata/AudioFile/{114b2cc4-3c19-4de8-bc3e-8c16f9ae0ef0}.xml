@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{114b2cc4-3c19-4de8-bc3e-8c16f9ae0ef0}">
+		<property name="assetPath">
+			<value>anttisinstrumentals+abyssflowers.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>281.86122448979592</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6f386c0c-5402-417d-a3b0-15d4d0550879}</destination>
+		</relationship>
+	</object>
+</objects>

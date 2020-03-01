@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 7126193486370702166}
   - component: {fileID: 9120077018934292644}
   - component: {fileID: 457887890770383332}
+  - component: {fileID: 8620930597551991347}
   m_Layer: 0
   m_Name: Weed
   m_TagString: Untagged
@@ -77,8 +78,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.3, y: 1}
+  m_Offset: {x: 0, y: 0.22108984}
+  m_Size: {x: 0.3, y: 0.5578203}
   m_Direction: 0
 --- !u!114 &457887890770383332
 MonoBehaviour:
@@ -93,6 +94,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 3476959972638654384}
+--- !u!114 &8620930597551991347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124792392597751877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/grass_push
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7681277648288775520
 GameObject:
   m_ObjectHideFlags: 0
