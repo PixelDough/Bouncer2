@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{c6a867a7-5add-4c35-8e87-437a554eef45}">
+		<property name="name">
+			<value>Scene Change</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9a427f2c-4f0c-469e-b60c-1838fb617711}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{43405f8b-13a3-4d2f-aa71-1ac2331b9aa1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{43405f8b-13a3-4d2f-aa71-1ac2331b9aa1}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

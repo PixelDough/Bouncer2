@@ -98,6 +98,7 @@ public class BallController : MonoBehaviour
                 isGrounded = true;
                 coyoteTime = coyoteTimeMax;
                 groundNormal = p.normal;
+                break;
             }
         }
         

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7274902739854919439}
   - component: {fileID: 7274902739854919432}
   - component: {fileID: 7274902739854919434}
-  - component: {fileID: 7274902739854919433}
+  - component: {fileID: 777966876407455111}
   m_Layer: 0
   m_Name: One Way Platform
   m_TagString: Ground
@@ -102,7 +102,7 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!68 &7274902739854919433
+--- !u!68 &777966876407455111
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,8 +115,8 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.08}
+  m_Offset: {x: 0, y: 0.5}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.07999999, y: 0}
-  - {x: 0.07999999, y: 0}
+  - {x: -0.5, y: 0}
+  - {x: 0.5, y: 0}
