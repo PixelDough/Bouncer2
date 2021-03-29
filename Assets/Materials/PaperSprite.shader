@@ -122,12 +122,12 @@ Shader "Bouncer/PaperSprite"
 }
 /*ASEBEGIN
 Version=17800
-0;667;1427;332;1724.628;342.0901;1.291183;True;False
+0;513.6;1141;270;1506.86;320.4217;1.3;True;False
 Node;AmplifyShaderEditor.WorldPosInputsNode;25;-1502.544,-191.0217;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.DynamicAppendNode;18;-1290.243,-185.5779;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;16;-1095.659,-201.4382;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0.1,0.1;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;6;-1073.003,-17.47968;Inherit;False;0;0;_MainTex;Shader;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.SamplerNode;9;-946.0482,-249.766;Inherit;True;Property;_PaperTexture;PaperTexture;0;0;Create;True;0;0;False;0;-1;None;161a5ba1ff6d98140ae0865bfc1ced05;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SamplerNode;9;-946.0482,-249.766;Inherit;True;Property;_PaperTexture;PaperTexture;0;0;Create;True;0;0;False;0;-1;None;ea0142217cf1a7a4ead3751d0b215a22;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;8;-832.0705,-21.60998;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;False;0;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.VertexColorNode;23;-430.8108,31.3347;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.LerpOp;27;-614.211,-215.5542;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;1,1,1,0;False;2;COLOR;0.7169812,0.7169812,0.7169812,0;False;1;COLOR;0
@@ -145,4 +145,4 @@ WireConnection;10;1;8;0
 WireConnection;10;2;23;0
 WireConnection;1;0;10;0
 ASEEND*/
-//CHKSM=9F30C12866CEA87F075693B84C72E72AA6FBC8A5
+//CHKSM=B1783FFE9EC185D9D91757B802FE23DCDD0DA91C

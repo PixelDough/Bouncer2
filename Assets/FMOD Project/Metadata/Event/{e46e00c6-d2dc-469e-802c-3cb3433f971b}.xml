@@ -37,6 +37,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{020db2e8-617d-4393-b3ee-f19380bbd6e2}</destination>
+			<destination>{42e34ec5-5030-4518-a5a3-95fecf1c1052}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{5347c014-dada-4706-bb8e-15d60df3f123}">
@@ -217,15 +218,15 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>-6.5600009</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9af97923-0236-446a-9b3f-03d8fbeec7e2}">
 		<property name="position">
-			<value>5</value>
+			<value>3</value>
 		</property>
 		<property name="value">
-			<value>-6.5600009</value>
+			<value>-7</value>
 		</property>
 	</object>
 </objects>

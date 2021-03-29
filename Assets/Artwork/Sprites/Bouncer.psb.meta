@@ -61,6 +61,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -86,28 +87,6 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Sphere
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 511
-      height: 511
-    spriteID: 968f97d7b5e340c40aeb268a16f0e113
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 3}
   - name: Shadow
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -116,7 +95,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1042
+      y: 1043
       width: 511
       height: 273
     spriteID: 3f7abf51af5a14249a762df50500d82e
@@ -129,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1042}
+    uvTransform: {x: 4, y: 1043}
   - name: Center
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -138,7 +117,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 523
-      y: 1042
+      y: 1043
       width: 71
       height: 71
     spriteID: abcf70f402fa6634fbc2eee85e08a822
@@ -151,7 +130,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 304, y: 815}
+    uvTransform: {x: 304, y: 816}
   - name: Ball
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,7 +139,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 523
+      y: 524
       width: 511
       height: 511
     spriteID: 6860916409dca7344bcc7dda563e2da6
@@ -173,11 +152,33 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 522}
+    uvTransform: {x: 4, y: 523}
+  - name: Sphere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 512
+      height: 512
+    spriteID: 4e7b2a3eb379d3748b82deb6864fd884
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
   platformSettings:
   - name: Default
     overridden: 1
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 3
@@ -208,8 +209,8 @@ ScriptedImporter:
     spriteName: Sphere
     isGroup: 0
     parentIndex: -1
-    spriteID: 968f97d7b5e340c40aeb268a16f0e113
-    layerID: 12
+    spriteID: 4e7b2a3eb379d3748b82deb6864fd884
+    layerID: 14
     mosaicPosition: {x: 4, y: 4}
   - name: Shadow
     spriteName: Shadow
@@ -217,21 +218,21 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 3f7abf51af5a14249a762df50500d82e
     layerID: 10
-    mosaicPosition: {x: 4, y: 1042}
+    mosaicPosition: {x: 4, y: 1043}
   - name: Center
     spriteName: Center
     isGroup: 0
     parentIndex: -1
     spriteID: abcf70f402fa6634fbc2eee85e08a822
     layerID: 8
-    mosaicPosition: {x: 523, y: 1042}
+    mosaicPosition: {x: 523, y: 1043}
   - name: Ball
     spriteName: Ball
     isGroup: 0
     parentIndex: -1
     spriteID: 6860916409dca7344bcc7dda563e2da6
     layerID: 6
-    mosaicPosition: {x: 4, y: 523}
+    mosaicPosition: {x: 4, y: 524}
   characterData:
     bones: []
     parts: []

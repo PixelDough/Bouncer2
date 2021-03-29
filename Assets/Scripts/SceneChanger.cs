@@ -8,7 +8,9 @@ public class SceneChanger : MonoBehaviour
 {
 
     public LoadingScreen loadingScreen;
+    public bool freezePlayerOnTrigger = false;
     public Transform playerSpawnPoint;
+    public Vector2 playerSpawnVelocity = Vector2.zero;
     public string doorName = null;
     public SceneIndexes sceneIndex = SceneIndexes.MANAGER;
     public LoadingScreen.TransitionTypes transitionType;
@@ -20,6 +22,7 @@ public class SceneChanger : MonoBehaviour
         if (GameManager.Instance.doorName == doorName)
         {
             FindObjectOfType<BallController>().transform.position = playerSpawnPoint.position;
+            FindObjectOfType<BallController>().GetComponent<Rigidbody2D>().velocity = playerSpawnVelocity;
         }
     }
 
@@ -31,6 +34,8 @@ public class SceneChanger : MonoBehaviour
         if ((int)sceneIndex > SceneManager.sceneCountInBuildSettings) { Debug.LogError("Scene Index outside of SceneManager range."); return; }
 
         if (GameManager.Instance) GameManager.Instance.doorName = doorName;
+
+        if (freezePlayerOnTrigger) FindObjectOfType<BallController>().GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
 
         Debug.Log("Changing Scenes");
         changingScenes = true;
