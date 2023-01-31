@@ -24,6 +24,7 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -42,6 +43,7 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    ignorePngGamma: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -61,6 +63,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -130,28 +133,6 @@ ScriptedImporter:
     parentGroupIndex: -1
     uvTransform: {x: -62, y: 4}
   rigSpriteImportData:
-  - name: Berries
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 578
-      width: 646
-      height: 431
-    spriteID: d719e10a846656d44b5da294bd310d36
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -190, y: 506}
   - name: Bush
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -218,13 +199,6 @@ ScriptedImporter:
     layerID: 11
     mosaicPosition: {x: 4, y: 4}
   rigPSDLayers:
-  - name: Berries
-    spriteName: Berries
-    isGroup: 0
-    parentIndex: -1
-    spriteID: d719e10a846656d44b5da294bd310d36
-    layerID: 16
-    mosaicPosition: {x: 4, y: 578}
   - name: Bush
     spriteName: Bush
     isGroup: 0

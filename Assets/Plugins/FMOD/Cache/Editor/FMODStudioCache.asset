@@ -52,7 +52,7 @@ MonoBehaviour:
   lastModified: 637196504665091720
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8754026444829625128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,8 +278,8 @@ MonoBehaviour:
   Path: event:/Sound Effects/jump
   guid: 86ec9bc73b9309468c873b5051721c6b
   Banks:
-  - {fileID: -969634826292307828}
-  - {fileID: 1603009915578778746}
+  - {fileID: -6195123743177450349}
+  - {fileID: 5244319026258672698}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -429,6 +429,23 @@ MonoBehaviour:
   FileSizes: []
   Exists: 0
 --- !u!114 &-7785755219025848023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Indoors
+  m_EditorClassIdentifier: 
+  Name: Indoors
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-7780841302222614812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -703,12 +720,12 @@ MonoBehaviour:
   Path: event:/Sound Effects/sfx_computerChiptune
   guid: 21028eef2633944faf195d4838365cd8
   Banks:
-  - {fileID: 1603009915578778746}
+  - {fileID: 5244319026258672698}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2239749121018786567}
+  - {fileID: 7137553464559572596}
   MinDistance: 0
   MaxDistance: 0
   Length: 8728
@@ -819,6 +836,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6195123743177450349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637525751833228436
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6145247723866987666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,7 +1198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD Project/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637196504664901970
+  lastModified: 637525751833238438
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1575,8 +1610,8 @@ MonoBehaviour:
   Path: event:/Sound Effects/grass_push
   guid: b26325a1ee1c7b45a7b81e4fdc094377
   Banks:
-  - {fileID: -969634826292307828}
-  - {fileID: 1603009915578778746}
+  - {fileID: -6195123743177450349}
+  - {fileID: 5244319026258672698}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1688,7 +1723,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1793226253943926544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1812,6 +1847,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-1646672528874619942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_radio_otgw_moneyForSchool/Finished
+  m_EditorClassIdentifier: 
+  Name: Finished
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-1494184115153335112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1881,7 +1933,7 @@ MonoBehaviour:
   Path: event:/Music/Music2
   guid: da720749af8fe8449380d7dd7d51de25
   Banks:
-  - {fileID: -8980090008823967134}
+  - {fileID: -1118375792243338133}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1924,6 +1976,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1124065959054290374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Scene Change
+  m_EditorClassIdentifier: 
+  Name: Scene Change
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-1118375792243338133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Project/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637525751833268443
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1065793030411132511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1956,12 +2043,12 @@ MonoBehaviour:
   Path: event:/Sound Effects/sfx_radio_otgw_moneyForSchool
   guid: 52f12d4664c7004fb283e44e64f72344
   Banks:
-  - {fileID: 1603009915578778746}
+  - {fileID: 5244319026258672698}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -151954773386269496}
+  - {fileID: -1646672528874619942}
   MinDistance: 0
   MaxDistance: 0
   Length: 42100
@@ -1982,7 +2069,7 @@ MonoBehaviour:
   lastModified: 637196504664882317
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-831610592578019352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,6 +2105,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-710642227246734678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Player Speed
+  m_EditorClassIdentifier: 
+  Name: Player Speed
+  Min: 0
+  Max: 10
+  Default: 7
+  Exists: 1
 --- !u!114 &-675347507776220432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,7 +2137,7 @@ MonoBehaviour:
   Path: snapshot:/Reverb Room 1
   guid: fa1d7d2f080c1145b87652cbcdccfc4d
   Banks:
-  - {fileID: -969634826292307828}
+  - {fileID: -6195123743177450349}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2144,7 +2248,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-77541723777797592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,9 +2281,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -4004736657147077045}
-  - {fileID: -969634826292307828}
-  - {fileID: -8980090008823967134}
-  - {fileID: 1603009915578778746}
+  - {fileID: -6195123743177450349}
+  - {fileID: -1118375792243338133}
+  - {fileID: 5244319026258672698}
   EditorEvents:
   - {fileID: -2456153405426216818}
   - {fileID: 1095770616482943641}
@@ -2190,14 +2294,14 @@ MonoBehaviour:
   - {fileID: -1348371488518831215}
   - {fileID: -6707693633135206660}
   EditorParameters:
-  - {fileID: -2091879751957936752}
-  - {fileID: 3928320176249640216}
-  - {fileID: 3033323275113530986}
+  - {fileID: -7780841302222614812}
+  - {fileID: -1124065959054290374}
+  - {fileID: -710642227246734678}
   MasterBanks:
-  - {fileID: -969634826292307828}
+  - {fileID: -6195123743177450349}
   StringsBanks:
   - {fileID: -4004736657147077045}
-  stringsBankWriteTime: 637196504664901970
+  stringsBankWriteTime: 637525751833238438
   cacheVersion: 3
 --- !u!114 &205648888246049564
 MonoBehaviour:
@@ -2461,7 +2565,7 @@ MonoBehaviour:
   Path: event:/Music/Music1
   guid: c0f31ae6b9725a499f29219b1e9c5c79
   Banks:
-  - {fileID: -969634826292307828}
+  - {fileID: -6195123743177450349}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2628,7 +2732,7 @@ MonoBehaviour:
   lastModified: 637196504665351046
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &1613485870660585159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2732,7 +2836,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2380702486047656389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2903,7 +3007,7 @@ MonoBehaviour:
   Min: 0
   Max: 10
   Default: 7
-  Exists: 1
+  Exists: 0
 --- !u!114 &3059182283249256468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,8 +3110,8 @@ MonoBehaviour:
   Path: event:/Sound Effects/bounce
   guid: c6006ee4dcd29e46802c3cb3433f971b
   Banks:
-  - {fileID: -969634826292307828}
-  - {fileID: 1603009915578778746}
+  - {fileID: -6195123743177450349}
+  - {fileID: 5244319026258672698}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3154,7 +3258,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4024363272488504726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3417,6 +3521,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &5244319026258672698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Project/Build/Desktop/Sounds.bank
+  SubDir: 
+  lastModified: 637525751833348465
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5392592856756088782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3926,6 +4048,23 @@ MonoBehaviour:
   Max: 10
   Default: 7
   Exists: 0
+--- !u!114 &7137553464559572596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_computerChiptune/Finished
+  m_EditorClassIdentifier: 
+  Name: Finished
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &7345057256639024058
 MonoBehaviour:
   m_ObjectHideFlags: 0
